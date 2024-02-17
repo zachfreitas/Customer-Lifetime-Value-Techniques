@@ -9,7 +9,7 @@
 | $CLV$  | $CLV = \sum_{\text{Lifetime}}(RR-COGS)-CAC$ | The name customer lifetime value implies that it combines all the costs and recurring revenue over the customer’s expected lifetime. |
 | $FLV$   | $FLV = \sum_{\text{Future}}(RR-COGS)$ | Future lifetime value (FLV) is the sum of the recurring payments and maintenance costs, at any time after the first period. |
 | $FLV$   | $FLV = m\sum_{\text{Future}}(RR)$ | Future lifetime value (FLV) with margin instead of COGS|
-|$FLV$|$FLV = mRR\frac{retention}{1+discount-retention}$|Discounted Version of FLV to account for the time value of money.|
+|$FLV$|$FLV = mRR\frac{retention}{1+discount-retention}$|Discounted Version of FLV to account for the time value of money and churn.|
 | $NPV$  |  | TBD |
 | $m$   |$m = \frac{RR-COGS}{RR}$|Margin | 
 | $L$   | $L = \frac{1}{Churn}$| Lifetime is the average expected length of survival given a known churn rate.|
